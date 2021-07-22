@@ -1,6 +1,7 @@
 :root {
     --color1: hsl(179, 62%, 43%);
     --color2: hsl(71, 73%, 54%);
+    --color2over: hsla(71, 73%, 54%, 0.7);
     --color3: hsl(179, 47%, 52%);
     --color_bg: hsl(204, 43%, 93%);
     --color_text: hsl(218, 22%, 67%);
@@ -38,6 +39,7 @@ body {background: var(--color_bg); height: 100vh; place-items: center; display: 
 
 .-btn {padding: 13px 20px; display: block; text-align: center; background: var(--color2); color: #ffffff; border-radius: 0.3em;
     box-shadow: 0px 0px 7px 3px #27a29f; margin: 30px 0 0; }
+.-btn:hover {background: var(--color2over);}
 
 
 @media screen and (min-width: 768px){ 
